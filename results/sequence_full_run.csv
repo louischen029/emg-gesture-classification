@@ -1,0 +1,2 @@
+model,rms_window_len,rms_stride,sample_users,max_users,max_trials_per_user,max_trials_per_gesture_per_user,batch_size,apply_filter,learning_rate,step_size,gamma,early_stopping_patience,max_epochs,hidden_size,num_layers,train_users,test_users,train_sequences,test_sequences,best_val_accuracy,test_accuracy,test_trial_accuracy,seed
+paper_lstm,5,5,,,,,1000,False,0.0001,5,0.9,5,30,128,3,306,306,45900,45900,81.4516,80.2985,80.2985,42

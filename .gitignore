@@ -1,0 +1,38 @@
+# Participant data stays local, including photos and JSON records.
+data/
+datasets/
+private/
+# Environments, credentials, and editor state
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+# Generated files and model artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.mat
+*.zip
+*.tar*
+# Experiment outputs are ignored unless explicitly curated in results.
+*.csv
+!results/*.csv
